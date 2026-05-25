@@ -168,7 +168,18 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-left: 50px;
 }
+.skills__text li::marker {
+    color: var(--text-decoration-color);
+}
+
+.skills__text--bold {
+    font-weight: bold;
+    font-style: italic;
+    color: var(--durability-text-color);
+}
+
 /* Experience and additional info styles */
 
 .experiences {
